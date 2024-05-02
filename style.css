@@ -1,0 +1,411 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+    font-family: "Jaro", sans-serif;
+}
+
+header{
+    background-color: black;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+nav div ul {
+
+    list-style: none;   
+}
+.arriba a{
+    color: white;
+    font-size: 20px;
+    /* padding: 50px; */
+    text-decoration: none;
+}
+.arriba li a:hover{
+    color:rgba(255, 255, 255, 0.603);
+    
+}
+.imgfondo{
+    background-image: url(./galeria/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height:calc(100vh - 126px);
+    padding-top: 150px;
+}
+h1{
+    font-style: 25px;
+    color: white;
+    text-shadow: 0 0 5px #fff;
+}
+.contenidodentro p{
+    color: white;
+    text-shadow: 0 0 2px #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contenidodentro a{
+    text-decoration: none;
+    background-color: greenyellow;
+    color: green;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.contenidodentro a:hover{
+    color: greenyellow;
+    background-color:rgb(14, 110, 14) ;
+    transition: 1s;
+}
+.contenidodentro{
+    width: 430px;
+    height: auto;
+    padding-bottom: 15px;
+    border: 5px solid #eee;
+    text-align: center;
+    border-radius: 10px;
+}
+.subtitulo span{
+    color: green;
+}
+.subtitulo{
+    background-color: white;
+    text-align: center;
+}
+.subtitulo h2 , h3{
+    font-size: 30px;
+    color: black;
+    text-shadow: 0 0 5px black;
+    padding-bottom: 20px;
+    transition: all 1.5s;
+}
+.subtitulo h2:hover , h3:hover{
+    transform: scale(1.2);
+}
+.subtitulo h2{
+    padding-top: 50px;
+}
+.subtitulo p{
+    font-size: 20px;
+}
+.canchas{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.lfoto{
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 50%;
+    padding: 50px;
+    transition: all 1.5s;
+    /* background-repeat: no-repeat; */
+}
+.rfoto{
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 50%;
+    padding: 50px;
+    transition: all 1.5s;
+}
+.lfoto:hover , .rfoto:hover{
+    transform: scale(1.032);
+}
+.wsps{
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    transition: all 1.2s !important;
+}
+.wspl , .wspr{
+    font-size: 25px;
+    color: white;
+    background-color: rgb(77, 194, 31);
+    padding: 30px 50px;
+    border:5px solid black;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    width:auto;
+    display: inline;
+    
+}
+.wsps a:hover{
+    transition: all 1.2s !important;
+}
+.wspl a:hover, .wspr a:hover{
+filter: grayscale(100%);
+color: black;
+transition: all 1.2s !important;
+}
+
+footer{
+    background-color: rgb(49, 202, 49);
+    color: white;
+    display: flex;
+}
+footer .red{
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    display: inline;
+    border-radius: 10px;
+}
+footer .derechos{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding-left:30px;
+    font-size: 20px;
+}
+.redes{
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 200px;
+    
+}
+footer .redes a{
+    padding-top: 10px;
+    font-size: 20px;
+
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    display: flex;
+    padding-left: 10px;
+
+}
+footer div a .icono{
+    font-size: 25px;
+    padding: 3px;
+}
+/* nosotros */
+.mainnosotros{
+    background-color: black;
+}
+.mainnosotros{
+    background-image: url(./galeria/fulbo.jpg);
+    background-size: cover;
+    background-position: center;    
+    position: relative;
+    height: calc(100vh);
+}
+.losotros h1{
+    font-size: 35px;
+    text-shadow: 0 0 10px white;
+    text-align: center;
+    padding-top: 30px;
+}
+.losotros p{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    padding: 100px;
+    padding-top: 30px;
+    text-shadow: 0 0 10px black;
+    justify-content: center;
+    
+}
+.mainnosotros h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 40px;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    padding-bottom: 0px;
+        
+}
+.mainnosotros .info{
+    font-size: 25px;
+    padding: 0 200px;
+    border: 0 0 10px white;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 5px white;
+}
+.contactos{
+    display: flex;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.contacto{
+width: auto;
+height: auto;
+padding: 30px;
+}
+
+.contactos .pi{
+    font-size: 25px;
+    transition: all 1.2s !important;
+}
+.contactos a{
+    text-decoration: none;
+    color: white;
+} 
+.contactos .contacto .pi:hover ,form input:hover{
+    transform: scale(1.2);
+}
+
+.form{
+    width:auto;
+    height: auto;
+    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 10px yellowgreen;
+    text-align: center;
+}
+.form input{
+    padding: 20px 40px;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: gray;
+    box-shadow: 0 0 5px rgb(74, 214, 74);
+    transition: all 1.2s;
+}
+.contactos .contacto form input:hover{
+    background-color: black;
+}
+.form .boton{
+    padding: 20px 35px;
+    background-color: gray;
+    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 10px yellowgreen;
+}
+.form .boton:hover{
+    background-color: black;
+    color: white;
+}
+.contactoh3{
+    color: white;
+    font-size: 30px;
+}
+.footernos{
+    background-color: black;
+    color: white;
+}
+.footernos .redes a{
+    color: white;
+}
+.footernos .redes .red {
+    width: auto;
+}
+.reservamain{
+    height:calc(90vh - 55px);
+    background-image: url(./galeria/galaxia.jpg);
+    background-position: cover;
+}
+.footereserva{
+    background-color: black;
+    color: white;
+    width: auto;
+}
+.footereserva .derechos{
+    font-size: 20px;
+}
+.footereserva  .redes a{
+    color: white;
+}
+@media only screen and (max-width:1440px) {
+.footereserva .redes{
+    width: 20%;
+    text-align: center;
+}
+.footereserva a{
+    margin-left: 40px;
+}
+}
+@media only screen and (max-width:1024) {
+    
+    
+    .footereserva .redes {
+        width: 20%;
+    }
+    .footereserva .redes a{
+        margin-left:10px;
+    }
+    .footereserva .derechos{
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:768px) {
+    .contenidodentro{
+        margin-left: 30px;
+    }
+    .nave{
+        display: block !important;
+        text-align: center !important;
+        font-size: 20px;
+    }
+    
+    .nave a{
+        justify-content: center !important;
+    }
+    .canchas{
+        flex-direction: column;
+        align-items: center;
+    }
+    .lfoto , .rfoto{
+        padding: none;
+        margin:none;
+        width: 80vh;
+    }
+
+    footer .redes{
+        width: auto ;
+        text-align: center;
+        display: flex;
+        padding: 30px 30px;
+    }
+    footer .redes a{
+        width: auto;
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+    footer {
+        flex-direction: column;
+
+    }
+}
+@media only screen and (max-width:425px) {
+    .contenidodentro{
+        width: 300px;
+        height: auto;
+        padding: 5px;
+        margin-left: 10px;
+    }
+    .nave .arriba{
+        display: block !important;
+    }
+    .wspl, .wspr{
+        width: 300px !important;
+        text-align: center !important;
+        padding: 5px !important;
+    }
+    .redes{
+        display: block !important;
+        width: 100%;
+        
+    }
+    .footereserva .redes .red{
+        display: flex;
+        width: 150px;
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width:320px) {
+.reservamain .contactos .form{
+    width: 250px;
+}
+.reservamain .contactos .form input{
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+}
+}
